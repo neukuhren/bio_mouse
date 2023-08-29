@@ -3,3 +3,5 @@ venv
 .env/
 .env
 Mouse/
+__pycache__/
+__pycache__
