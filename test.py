@@ -2,9 +2,9 @@ classrooms={'Ytyth': 0,'YTyth': 1,'YTYth': 2,'ytytH': 3,'ytyth': 4}
  
 # class to be searched
 class_room='ytYTH'
-
-
-print(classrooms[class_room.casefold()])
+for idx in range(0, len(classrooms)+1):
+    if classrooms[class_room.casefold()]:
+        print(classrooms[idx])
 
  
 #function to search item

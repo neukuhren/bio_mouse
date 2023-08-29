@@ -10,7 +10,7 @@ from pathlib import Path  # Для работы с путями файлов
 from sys import getsizeof  # Чтобы посмотреть размер словаря в памяти компьютера
 from time import time  # Если хочется посмотреть время выполнения программы
 from time import sleep
-import winsound
+# import winsoun d
 
 
 # Импортируем настройки (значения констант) из файла конфигурации программы
@@ -152,4 +152,4 @@ if __name__ == '__main__':
     print('Время работы программы составило: ')
     print("--- %s seconds ---" % round((time() - start_time), 0))
     print('[!] Программа выполнена.')
-    winsound.PlaySound('*', winsound.SND_ALIAS)
+    # winsound.PlaySound('*', winsound.SND_ALIAS)

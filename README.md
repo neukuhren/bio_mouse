@@ -4,10 +4,11 @@
 1 - Создается словарь dict{(key):(value)} {"название гена":"стабильность этого гена"}
 2 - Взаимодействие с фаилом, в котором содержится информация об этих же генах и их взаимодействии с другими генами. Поиск по названию генов из словаря и при наличии запись нового фаила вместе с значением стабильности. 
 ## Установка
+git clone https://github.com/neukuhren/bio_mouse.git
 python -m venv venv
 . source/scripts/activate
 python -m pip install --upgrade pip
-pip install req.txt
+pip install -r req.txt
 
 ## Запуск проекта
 Скачать файлы для 
